@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #414141;
+}
+
+#container {
+  width: 680px;
+  height: 600px;
+  margin: 15px auto;
+  background-color: #F7F9FA;
+  border: #B7B7B7 0.1px solid;
+}
+
+.tasklist {
+  text-align: center;
+  font-weight: normal;
+  font-size: 25px;
+  padding-top: 30px;
+
+}
+
+.delete_task {
+  float:right;
+  display: inline-block;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.title {
+  font-weight: normal;
+  font-size: 20px;
+  border-bottom: solid 3px #87CEFA;
+  padding-bottom: 3px;
+}
+
+.addtask {
+  width: 600px;
+  height: 30px;
+}
+.form_task {
+  text-align: center;
+}
+
+#container_sub {
+  width: 600px;
+  margin:15px auto;
+  padding-bottom: 30px;
+}
+
+#tasks {
+  list-style-type:none;
+  padding-left: 0;
+}
